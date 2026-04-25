@@ -1,2 +1,2 @@
-# stephendmcrae.github.io
+# Duncan McRae's Website
 Stephen D McRae's website
