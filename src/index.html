@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Duncan McRae's personal website, come check it out!">
+    <meta name="author" content="Duncan McRae">
+    <meta name="keywords" content="portfolio, engineer, projects, experience">
+    
+    <title>Duncan McRae's Claim</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="/public/images/icon.png">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#home" class="nav-logo">Duncan McRae</a>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Image -->
+        <section class="hero"></section>
+
+        <!-- Hero Text -->
+        <section id="home" class="hero-text">
+            <div class="container">
+                <h1>Duncan McRae</h1>
+                <p class="tagline">Electrical Engineering & Physics Student | Farm Raised</p>
+                <p class="subtitle">Welcome to my stake on the web!</p>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    I'm Duncan McRae, a student at the University of Ottawa
+                    pursuing degrees in both Physics and Electrical Engineering. I love to tinker with all kinds
+                    of projects, trying to solve problems at home on the farm and everywhere I go. I have worked 
+                    with my hands for most of my life and have gained an affinity for repairing exisiting systems
+                    and for creating new ones. Please feel free to explore my projects and experience, and don't
+                    hesitate to reach out if you'd like!
+                </p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Bluetooth Speaker</h3>
+                        <img src="/public/images/Speaker1.jpg" alt="Speaker design engineering">
+                        <p>
+                            With the desire for a speaker on a student budget, this speaker incorporated a
+                            transformer from an old radio, a self-built rectifier, M5 bluetooth module,
+                            and a thrift store speaker.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>RF Power Measurement</h3>
+                        <img src="/public/images/RF_Project.png" alt="RF engineering project">
+                        <p>First created for coursework, this device measures the ambient RF
+                            power in the 343MHz and 2.4GHz ranges. By measuring the ambient power within
+                            several campus buildings, heatmaps of each frequency range were created to
+                            show the distribution of RF power across old and new buildings.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Home Server</h3>
+                        <img src="/public/images/Pihole.png" alt="Home network">
+                        <p>
+                            With an old laptop that I had nothing else to do with, I installed a headless
+                            version of Linux and set up a PiHole to block ads across my entire home network.
+                            Then I added unbound to make it a recursive DNS server, improving privacy and security.
+                            Along with a minecraft server and finally a storage for my ever expanding documents folder using
+                            syncthing to store the files on my laptop onto the server hard drive.
+                        </p>
+                    </article>
+
+                    <article class="project-card">
+                        <h3>Furnace Retrofit Project</h3>
+                        <img src="/public/images/Furnace_Retrofit.jpg" alt="Furnace Retrofit project">
+                        <p>Still in progress, I am retrofitting the wood furnace system first built by my great-grandfather and still
+                           keeping my family warm after over 100 years. Adding an ESP-32 microcontroller to automate the system
+                           Improving reliability and efficiency.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="timeline">
+                    <article class="experience-item">
+                        <h3>Co-op Shop Technician</h3>
+                        <p class="company">BluMetric | Jan 2025 - Sept 2025</p>
+                        <p>
+                            During my CO-OP term at BluMetric I worked on several
+                            electro-mechanical systems, introducing me to the process of 
+                            designing, assembling, and iteratively testing systems before
+                            delivering to clients. I also became familiar with the process of 
+                            documentation to smoothly recreate the tested system and log any improvements.
+                        </p>
+                    </article>
+
+                    <article class="experience-item">
+                        <h3>Masonry Labourer</h3>
+                        <p class="company">J.S. Macconerie | June 2021 - Sept 2023</p>
+                        <p>
+                            Worked on various masonry tasks, including site preparation, mixing
+                            mortar, transporting stone and a minimal amount of bricklaying. 
+                            Gained hands-on experience in construction, and developed resiliancy and
+                            a tenactiy for finishing tasks.
+                        </p>
+                    </article>
+
+                    <article class="experience-item">
+                        <h3>Farm Hand</h3>
+                        <p class="company">Charlottengro Farms | June 2021 - Sept 2023</p>
+                        <p>
+                            Worked on various agricultural tasks, including field preparation, livestock care, harvesting, and maintaining equipment.
+                            Gained hands-on experience in farm operations, and developed autonomy and a strong work ethic.
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact</h2>
+                <p>Feel free to reach out if you have any questions or to connect!</p>
+                <div class="contact-links">
+                    <a href="mailto:duncan.mcrae180@gmail.com" class="contact-btn">Email Me</a>
+                    <a href="https://github.com/DuncanMcRae18" target="_blank" class="contact-btn">GitHub</a>
+                    <a href="https://www.linkedin.com/in/duncan-mcrae-620979288" target="_blank" class="contact-btn">LinkedIn</a>
+                    <a href="/public/documents/Duncan McRae Resume.pdf" download class="contact-btn">Download Resume</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section id="resume" class="resume">
+        <embed src="/public/documents/Duncan McRae Resume.pdf" type="application/pdf" width="100%" height="600px" />
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Duncan McRae. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="scripts/index.js"></script>
+</body>
+</html>
