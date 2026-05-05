@@ -37,7 +37,7 @@ main {
 }
 
 section {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 header {
@@ -93,13 +93,15 @@ header {
 
 .hero {
     background: url('/public/images/mcrae gate.jpg') no-repeat center center/cover;
-    height: 400px;
-    position: relative;
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    margin: 30px auto;
+    border-radius: 12px;
 }
 
 .hero-text {
     background-color: var(--b);
-    padding: 60px 0;
     text-align: center;
     position: relative;
 }
